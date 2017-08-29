@@ -1,5 +1,5 @@
 #include <math.h>
-#include "stdio.h"
+#include <stdio.h>
 
 int prime(int num) {
     int j;
