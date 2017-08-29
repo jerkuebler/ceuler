@@ -1,4 +1,4 @@
-#import <stdio.h>
+#include <stdio.h>
 
 int palindrome(int num) {
 
@@ -22,8 +22,7 @@ int palindrome(int num) {
 int main() {
 
     int largest = 0;
-    int i;
-    int j;
+    int i, j;
     for (i = 100; i < 1000; i++) {
         for (j = 100; j < 1000; j++){
             int test_num = i * j;
